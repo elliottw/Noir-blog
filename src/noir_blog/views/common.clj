@@ -4,7 +4,7 @@
        hiccup.page-helpers))
 
 ;; Links and includes
-(def main-links [{:url "/blog/admin" :text "Admin"}])
+(comment (def main-links [{:url "/blog/admin" :text "Admin"}]))
 
 (def admin-links [{:url "/blog/" :text "Blog"}
                   {:url "/blog/admin" :text "Posts"}
