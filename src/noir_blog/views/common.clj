@@ -36,7 +36,7 @@
                [:div#wrapper
                 [:div.content
                  [:div#header
-                  [:h1 (link-to "/blog/" "The Catapult PGH Blarg part two!")]
+                  [:h1 (link-to "/blog/" "The Catapult PGH Blarg!")]
                   [:ul.nav
                    (map link-item main-links)]]
                  content]]]))
