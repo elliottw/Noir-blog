@@ -7,5 +7,5 @@
   (db/init)
   (when-not (db/get :users)
     ;;db values need to be initialized.. this should only happen once.
-    (users/init!)
-    (posts/init!)))
+    (comment (users/init!)
+    (posts/init!))))
