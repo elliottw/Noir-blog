@@ -12,8 +12,8 @@
                   {:url "/blog/logout" :text "Logout"}])
 
 (def includes {:jquery (include-js "http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js")
-               :default (include-css "/css/default.css")
-               :reset (include-css "/css/reset.css")
+               (include-css "/css/bootstrap.css")
+               (include-css "/css/bootstrap-responsive.css")
                :blog.js (include-js "/js/blog.js")})
 
 ;; Helper partials
